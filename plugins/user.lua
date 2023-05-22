@@ -30,23 +30,11 @@ return {
           })
         end,
       },
-      { "catppuccin/nvim" },
-      -- plugins
       -- Outline
       {
         "simrat39/symbols-outline.nvim",
         config = function()
           require("symbols-outline").setup()
-        end,
-      },
-      -- Trouble :Trouble
-      { "folke/trouble.nvim" },
-      -- TODO Comments
-      {
-        "folke/todo-comments.nvim",
-        requires = "nvim-lua/plenary.nvim",
-        config = function()
-          require("todo-comments").setup()
         end,
       },
       -- NAVIC path
@@ -55,16 +43,6 @@ return {
         requires = "neovim/nvim-lspconfig",
         config = function()
           require("nvim-navic").setup()
-        end,
-      },
-      -- Floating CMD line :cmdline
-      {
-        'VonHeikemen/fine-cmdline.nvim',
-        requires = {
-          { 'MunifTanjim/nui.nvim' }
-        },
-        config = function()
-          require("fine-cmdline").setup()
         end,
       },
 }

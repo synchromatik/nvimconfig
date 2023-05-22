@@ -6,5 +6,10 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- noice ui
   { import = "astrocommunity.utility.noice-nvim" },
+  -- trouble debug
+  { import = "astrocommunity.diagnostics.trouble-nvim" },
+  -- todo comments
+  { import = "astrocommunity.editing-support.todo-comments-nvim" },
 }
