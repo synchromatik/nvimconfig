@@ -12,4 +12,6 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   -- todo comments
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
+  -- markdown :Glow file.md
+  { import = "astrocommunity.markdown-and-latex.glow-nvim" },
 }
