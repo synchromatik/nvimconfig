@@ -18,6 +18,8 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     -- lsp_handlers_enabled = false,
+    -- indent_blankline_char = '│',
+    -- indent_blankline_context_char = '│',
   },
 }
 -- If you need more control, you can use the function()...end notation
