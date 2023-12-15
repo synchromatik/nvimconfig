@@ -30,6 +30,8 @@ return {
       }
     end,
   },
+  -- caddyfile syntax
+  { "isobit/vim-caddyfile", event = { "BufReadPre", "BufNewFile" } },
   -- Outline
   {
     "simrat39/symbols-outline.nvim",
@@ -51,6 +53,7 @@ return {
       },
     },
   },
+  -- gitsigns override
   {
     "lewis6991/gitsigns.nvim",
     enabled = vim.fn.executable "git" == 1,

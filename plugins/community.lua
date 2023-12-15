@@ -14,4 +14,14 @@ return {
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   -- markdown :Glow file.md
   { import = "astrocommunity.markdown-and-latex.glow-nvim" },
+  -- suda
+  {
+    import = "astrocommunity.editing-support.suda-vim",
+    lazy = false,
+    opts = {
+      suda_smart_edit = 1,
+      -- colorcolumn = 120,
+      -- disabled_filetypes = { "help" },
+    },
+  },
 }
